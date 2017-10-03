@@ -1,10 +1,11 @@
 Package: singer
-Title: What the Package Does (one line, title case)
+Title: Data From The Million Songs Dataset
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Joey", "Bernhardt", role=c("aut", "cre"),
+    email = "joey.bernhardt@biodiversity.ubc.ca")
+Description: Data to use to learn how to manipulate dataframes.
 Depends: R (>= 3.4.1)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
