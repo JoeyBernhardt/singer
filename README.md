@@ -3,7 +3,7 @@
 singer
 ======
 
-The goal of singer is to ...
+The goal of singer :musical\_note: is to ...
 
 Installation
 ------------

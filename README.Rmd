@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # singer
 
-The goal of singer is to ...
+The goal of singer :musical_note: is to ...
 
 ## Installation
 
