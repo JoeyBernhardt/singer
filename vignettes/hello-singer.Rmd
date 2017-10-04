@@ -33,5 +33,6 @@ data(locations)
 
 ```{r}
 (ijsl <- inner_join(songs, locations))
+knitr::kable(ijsl)
 ```
 
