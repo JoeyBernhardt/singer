@@ -14,3 +14,7 @@ data(locations)
 ijsl <- inner_join(songs, locations)
 knitr::kable(ijsl)
 
+## ------------------------------------------------------------------------
+sjsl <- semi_join(songs, locations)
+knitr::kable(sjsl)
+

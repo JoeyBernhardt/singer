@@ -192,6 +192,90 @@ knitr::<span class="kw">kable</span>(ijsl)</code></pre></div>
 </tbody>
 </table>
 </div>
+<div id="semi_joinsongs-locations" class="section level4">
+<h4>semi_join(songs, locations)</h4>
+<blockquote>
+<p>semi_join(x, y): Return all rows from x where there are matching values in y, keeping just columns from x. A semi join differs from an inner join because an inner join will return one row of x for each matching row of y, where a semi join will never duplicate rows of x. This is a filtering join.</p>
+</blockquote>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">sjsl &lt;-<span class="st"> </span><span class="kw">semi_join</span>(songs, locations)
+knitr::<span class="kw">kable</span>(sjsl)</code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">title</th>
+<th align="left">artist_name</th>
+<th align="right">year</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Grievance</td>
+<td align="left">Pearl Jam</td>
+<td align="right">2000</td>
+</tr>
+<tr class="even">
+<td align="left">Stupidmop</td>
+<td align="left">Pearl Jam</td>
+<td align="right">1994</td>
+</tr>
+<tr class="odd">
+<td align="left">Present Tense</td>
+<td align="left">Pearl Jam</td>
+<td align="right">1996</td>
+</tr>
+<tr class="even">
+<td align="left">MFC</td>
+<td align="left">Pearl Jam</td>
+<td align="right">1998</td>
+</tr>
+<tr class="odd">
+<td align="left">Lukin</td>
+<td align="left">Pearl Jam</td>
+<td align="right">1996</td>
+</tr>
+<tr class="even">
+<td align="left">It’s Lulu</td>
+<td align="left">The Boo Radleys</td>
+<td align="right">1995</td>
+</tr>
+<tr class="odd">
+<td align="left">Sparrow</td>
+<td align="left">The Boo Radleys</td>
+<td align="right">1992</td>
+</tr>
+<tr class="even">
+<td align="left">High as Monkeys</td>
+<td align="left">The Boo Radleys</td>
+<td align="right">1998</td>
+</tr>
+<tr class="odd">
+<td align="left">Butterfly McQueen</td>
+<td align="left">The Boo Radleys</td>
+<td align="right">1993</td>
+</tr>
+<tr class="even">
+<td align="left">My One and Only Love</td>
+<td align="left">Carly Simon</td>
+<td align="right">2005</td>
+</tr>
+<tr class="odd">
+<td align="left">It Was So Easy (LP Version)</td>
+<td align="left">Carly Simon</td>
+<td align="right">1972</td>
+</tr>
+<tr class="even">
+<td align="left">I’ve Got A Crush On You</td>
+<td align="left">Carly Simon</td>
+<td align="right">1994</td>
+</tr>
+<tr class="odd">
+<td align="left">Manha De Carnaval (Theme from “Black Orpheus”)</td>
+<td align="left">Carly Simon</td>
+<td align="right">2007</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 
