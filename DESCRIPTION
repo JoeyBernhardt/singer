@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Joey", "Bernhardt", role=c("aut", "cre"),
     email = "joey.bernhardt@biodiversity.ubc.ca")
 Description: Data to use to learn how to manipulate dataframes.
-Depends: R (>= 3.4.1)
+Depends: R (>= 3.3.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
