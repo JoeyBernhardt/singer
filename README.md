@@ -20,7 +20,7 @@ Example
 
 ``` r
 library(singer)
-data(songs)
+data("songs")
 summary(songs)
 #>     title           artist_name             year     
 #>  Length:22          Length:22          Min.   :1972  
