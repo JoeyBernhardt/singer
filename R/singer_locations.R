@@ -1,5 +1,5 @@
 #' @title singer locations
-#' @description This data set contains song data and location data
+#' @description This dataset contains information about songs and associated artists in the Million Song Dataset.
 #' @format A \code{data.frame} with 10100 observations and 14 columns. The columns are defined as follows:
 #' \describe{
 #'  \item{\code{track_id}}{unique ID for each track}
@@ -16,7 +16,7 @@
 #'  \item{\code{city}}{city, and where available state or country associated with the artist location.}
 #'  \item{\code{artist_familiarity}}{An indication of how well known the artist is. Top familiar artists are bands like Led Zeppelin, Coldplay,  and The Beatles.}
 #' }
-#' @source Million Songs Dataset
+#' @source \url{http://labrosa.ee.columbia.edu/millionsong/}
 #' @author Joey Bernhardt
 #' @examples
 #' \dontrun{

@@ -21,13 +21,13 @@
  \item{\code{artist_familiarity}}{An indication of how well known the artist is. Top familiar artists are bands like Led Zeppelin, Coldplay,  and The Beatles.}
 }}
 \source{
-Million Songs Dataset
+\url{http://labrosa.ee.columbia.edu/millionsong/}
 }
 \usage{
 singer_locations
 }
 \description{
-This data set contains song data and location data
+This dataset contains information about songs and associated artists in the Million Song Dataset.
 }
 \examples{
 \dontrun{

@@ -4,18 +4,21 @@
 \name{locations}
 \alias{locations}
 \title{locations}
-\format{A \code{data.frame} with 10100 observations and 14 columns. The columns are defined as follows:
+\format{A \code{data.frame} with 14 observations and 4 columns. The columns are defined as follows:
 \describe{
- \item{\code{track_id}}{unique ID for each track}
+ \item{\code{city}}{city, and where available state or country associated with the artist location.}
+ \item{\code{artist_name}}{artist name}
+ \item{\code{title}}{song title}
+ \item{\code{release}}{album name from which the track was taken, some songs / tracks can come from many albums, only one is given}
 }}
 \source{
-Million Songs Dataset
+\url{http://labrosa.ee.columbia.edu/millionsong/}
 }
 \usage{
 locations
 }
 \description{
-This data set contains a subset of song data
+This data set contains a subset of song and location data from the Million Song Dataset.
 }
 \examples{
 \dontrun{
@@ -24,6 +27,6 @@ summary(locations)
 }
 }
 \author{
-JB
+Joey Bernhardt
 }
 \keyword{datasets}

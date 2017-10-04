@@ -4,18 +4,20 @@
 \name{songs}
 \alias{songs}
 \title{songs}
-\format{A \code{data.frame} with 10100 observations and 14 columns. The columns are defined as follows:
+\format{A \code{data.frame} with 22 observations and 3 columns. The columns are defined as follows:
 \describe{
- \item{\code{track_id}}{unique ID for each track}
+ \item{\code{artist_name}}{artist name}
+ \item{\code{title}}{song title}
+ \item{\code{year}}{year when the song was released, according to musicbrainz.org}
 }}
 \source{
-Million Songs Dataset
+\url{http://labrosa.ee.columbia.edu/millionsong/}
 }
 \usage{
 songs
 }
 \description{
-This data set contains a subset of song data
+This data set contains a small subset of song data from the Million Song Dataset including the artist name, song title and year of release.
 }
 \examples{
 \dontrun{
@@ -24,6 +26,6 @@ summary(songs)
 }
 }
 \author{
-JB
+Joey Bernhardt
 }
 \keyword{datasets}
