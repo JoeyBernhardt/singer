@@ -25,7 +25,7 @@ data(locations)
 ```
 
 
-#### inner_join(superheroes, publishers)
+#### inner_join(songs, locations)
 
 > inner_join(x, y): Return all rows from x where there are matching values in y, and all columns from x and y. If there are multiple matches between x and y, all combination of the matches are returned. This is a mutating join.
 
@@ -33,13 +33,3 @@ data(locations)
 (ijsl <- inner_join(songs, locations))
 ```
 
-
-
-```{r, echo=FALSE, results='asis'}
-knitr::kable(head(mtcars, 10))
-```
-
-Also a quote using `>`:
-
-> "He who gives up [code] safety for [code] speed deserves neither."
-([via](https://twitter.com/hadleywickham/status/504368538874703872))
