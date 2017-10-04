@@ -14,7 +14,11 @@
  \item{\code{artist_id}}{the musicbrainz.org ID for the artist}
  \item{\code{artist_name}}{artist name}
  \item{\code{year}}{year when the song was released, according to musicbrainz.org}
- \item{\code{artist_hotttnesss}}{according to The Echo Nest, when downloaded, artist 'hotttnesss' of 0.8 (on a scale of 0 and 1)}
+ \item{\code{artist_hotttnesss}}{according to The Echo Nest, artist 'hotttnesss' (on a scale of 0 and 1) is an indication of how much buzz the artist was getting at the time of download. top ‘hottt’ artists are artists like Katy Perry, The Boy Least Likely to, and Mastodon.}
+ \item{\code{latitude}}{Latitude associated with the artist location.}
+ \item{\code{longitude}}{Longitude associated with the artist location.}
+ \item{\code{city}}{city, and where available state or country associated with the artist location.}
+ \item{\code{artist_familiarity}}{An indication of how well known the artist is. Top familiar artists are bands like Led Zeppelin, Coldplay,  and The Beatles.}
 }}
 \source{
 Million Songs Dataset
@@ -32,6 +36,6 @@ summary(singer_locations)
 }
 }
 \author{
-JB
+Joey Bernhardt
 }
 \keyword{datasets}
