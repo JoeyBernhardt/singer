@@ -30,7 +30,7 @@ data(locations)
 > inner_join(x, y): Return all rows from x where there are matching values in y, and all columns from x and y. If there are multiple matches between x and y, all combination of the matches are returned. This is a mutating join.
 
 ```{r}
-(ijsp <- inner_join(songs, locations))
+(ijsl <- inner_join(songs, locations))
 ```
 
 
