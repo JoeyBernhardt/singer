@@ -12,7 +12,7 @@ vignette: >
 
 ## Vignette Info
 
-This vignette will demonstrate the use of `dplyr` joins.
+This vignette will demonstrate the use of `dplyr` joins. We will use two small dataframes, `songs` and `locations` to explore different types of joins.
 
 
 ```{r, warning=FALSE}
@@ -23,6 +23,8 @@ data(songs)
 data(locations)
 
 ```
+
+
 
 
 #### inner_join(songs, locations)
