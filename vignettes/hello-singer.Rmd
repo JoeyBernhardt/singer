@@ -1,10 +1,10 @@
 ---
-title: "Joins with singer"
+title: "Introduction to singer"
 author: "Joey Bernhardt"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Joins with singer}
+  %\VignetteIndexEntry{Introduction to singer}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
