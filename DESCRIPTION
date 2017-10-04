@@ -15,3 +15,4 @@ Suggests: testthat,
 VignetteBuilder: knitr
 URL: https://github.com/JoeyBernhardt/singer
 BugReports: https://github.com/JoeyBernhardt/singer/issues
+Imports: tidyverse
