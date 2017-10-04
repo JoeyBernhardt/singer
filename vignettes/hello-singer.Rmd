@@ -1,10 +1,10 @@
 ---
-title: "Singer data"
+title: "Joins with singer"
 author: "Joey Bernhardt"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Singer data}
+  %\VignetteIndexEntry{Joins with singer}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,7 +15,6 @@ knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='Figs/',
                       echo=TRUE, warning=FALSE, message=FALSE)
 ```
 
-## Vignette Info
 
 This vignette will demonstrate the use of `dplyr` joins. We will use two small dataframes, `songs` and `locations` to explore different types of joins.
 
