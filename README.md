@@ -3,7 +3,7 @@
 singer
 ======
 
-The goal of singer :musical\_note: is to ...
+Singer :musical\_note::musical\_note::musical\_note: is a data package that contains an excerpt from the [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/) designed for teaching purposes.
 
 Installation
 ------------
@@ -18,10 +18,20 @@ devtools::install_github("JoeyBernhardt/singer")
 Example
 -------
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
-## basic example code
+library(singer)
+data(songs)
+summary(songs)
+#>     title           artist_name             year     
+#>  Length:22          Length:22          Min.   :1972  
+#>  Class :character   Class :character   1st Qu.:1994  
+#>  Mode  :character   Mode  :character   Median :1996  
+#>                                        Mean   :1996  
+#>                                        3rd Qu.:2000  
+#>                                        Max.   :2007
 ```
+
+Joins with `singer`
+-------------------
 
 [How to do `dplyr` joins with singer](https://htmlpreview.github.io/?https://github.com/JoeyBernhardt/singer/blob/master/vignettes/joins.html)
