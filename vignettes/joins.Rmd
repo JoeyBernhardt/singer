@@ -43,7 +43,7 @@ knitr::kable(ijsl)
 
 #### semi_join(songs, locations)
 
-> semi_join(x, y): Return all rows from x where there are matching values in y, keeping just columns from x. A semi join differs from an inner join because an inner join will return one row of x for each matching row of y, where a semi join will never duplicate rows of x. This is a filtering join.
+> semi_join(x, y): Return all rows from x where there are matching values in y, keeping just columns from x. A semi join differs from an inner join because an inner join will return only one row of x for each matching row of y, where a semi join will never duplicate rows of x. This is a filtering join.
 
 ```{r}
 sjsl <- semi_join(songs, locations)
